@@ -34,6 +34,7 @@ def response_hitquery(cache_resp):
 
 
 data2vec = Data2VecAudio()
+# need to support postgresql
 mysql_config = configparser.ConfigParser()
 mysql_config.read('modelcache/config/mysql_config.ini')
 milvus_config = configparser.ConfigParser()
